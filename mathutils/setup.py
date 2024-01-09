@@ -3,6 +3,8 @@ from setuptools import setup, find_packages
 setup(
     name="mathutils",
     version="0.1.0",
+    author='dheeru',
+    author_email='dhirajsapkota260@gmail.com',
     description="A simple Python package for math operations and geometry calculations",
     packages=find_packages(),
     classifiers=[
