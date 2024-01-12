@@ -1,4 +1,7 @@
-import mathutils
+import math
+from mathutils.operations import add ,multiply
 
-print(mathutils.operations.add(2, 3))
-print(mathutils.geometry.circle_area(5))
+
+result = add(2, 3)
+multiplied = multiply(4, 5)
+print(f"Result: {result}, Multiplied: {multiplied}")
